@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,700;1,6..12,600&family=Nunito:wght@500;600;700&family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    ;
+
+
+}
+
+.form-container {
+    width: 100%;
+    min-height: 150vh;
+    display: flex;
+
+
+
+}
+
+.form-container .left-side {
+    width: 50%;
+    margin-left: 150px;
+    margin-top: 40px;
+    min-height: 100vh;
+    background: #4B55C1;
+    color: #fff;
+    margin-bottom: 40px;
+
+}
+
+.form-container .right-side {
+    width: 50%;
+    margin-right: 150px;
+    margin-top: 40px;
+    min-height: 100vh;
+    font-size: 30px;
+    margin-bottom: 40px;
+    background: #fff;
+    box-shadow: 0px 0px 8px rgb(202, 202, 202);
+    overflow: hidden;
+
+
+}
+
+.form-container .left-side p {
+    margin-top: 20px;
+    font-size: 32px;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.form-container .left-side h1 {
+    font-size: 38px;
+    font-weight: 594;
+    margin-top: 120px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.form-container .left-side label {
+    font-size: 20px;
+    margin-left: 80px;
+
+
+}
+
+.input-sec {
+    margin-top: 40px;
+    width: 100%;
+    height: 200px;
+    text-decoration: none;
+
+}
+
+input[type="text"] {
+    border: none;
+    font-size: 18px;
+    margin-top: 8px;
+    width: 80%;
+    height: 66px;
+    margin-left: 80px;
+    background: #3A44A9;
+    outline: none;
+    border: 4px;
+    text-decoration: none;
+    border-radius: 4px;
+    color: #fff;
+
+}
+
+input[type="text"]::placeholder {
+    color: gray;
+    padding-left: 20px;
+}
+
+input[type="text"]:hover {
+    filter: drop-shadow(3px 0px 6px #5c6aff);
+    border: none;
+    border-radius: 4px;
+    color: #ffff;
+}
+
+input[type="text"]:hover::before {
+    padding-left: 130px;
+    color: #d74343;
+}
+
+
+/* .check-boxx{
+    font-size: 20px;
+    width: 25px;
+    height: 30px;
+   display: inline-block;
+   margin-top: 70px;
+    margin-left: 150px;
+    overflow: hidden;
+} */
+
+.check-container {
+    margin-top: 60px;
+    display: grid;
+    border-radius: 2px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+
+
+}
+
+.check-container .getotp {
+    padding-left: 20px;
+    width: 104px;
+    height: 36px;
+    background: #fff;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    justify-self: center;
+    display: grid;
+    transition: .5s;
+}
+
+.check-container .getotp:hover {
+    border: 1px solid black;
+}
+
+/* .getotp{
+    margin-top:;
+    width: 40px;
+    height: 10px;
+    background-color: #fff;
+} */
+.check-container .otp-sec .enter-otp {
+    background: #fff;
+    width: 240px;
+    margin-top: 18px;
+    margin-left: 10px;
+    height: 32px;
+    border-radius: 0px;
+    display: inline-block;
+    color: black;
+
+}
+
+.check-container .otp-sec .enter {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 10px;
+
+}
+
+.otp-sec {
+    margin-left: -30px;
+    display: flex;
+    margin-top: 16px;
+    display: inline-block;
+
+
+}
+
+
+
+.agree h4 {
+    font-size: 18px;
+    font-weight: 200;
+    padding-top: 26px;
+    padding-left: 8px;
+}
+
+span {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #FF0000;
+}
+
+.condition {
+    font-size: 18px;
+    font-weight: 200;
+    padding-top: 4px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.Registration-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    letter-spacing: 0.5px;
+
+}
+
+.login-btn {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    background: #FF0000;
+    height: 62px;
+    width: 190px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-left: 260px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    transition: .5s;
+}
+.forget{
+    text-decoration: none;
+    color: #fff;
+    margin-top: 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+.forget:hover{
+    
+  color: #d5d4d4;
+  
+}
+
+.login-btn:hover {
+    box-shadow: 0px 0px 5px #d74343,
+        0px 0px 25px #d74343,
+        0px 0px 50px #d74343,
+        0px 0px 100px #d74343;
+}
+
+.logo {
+    margin-top: 40px;
+    width: 360px;
+    margin-left: 160px;
+
+}
+
+.logo2 {
+    margin-top: 40px;
+    width: 600px;
+    margin-left: 80px;
+}
+
+.form-container .left-side .number {
+    font-size: 17px;
+
+}
+
+.form-container .left-side .m-number {
+    width: 32%;
+    height: 32px;
+    background: #fff;
+    border-radius: 0px;
+
+
+}
+
+.form-container .left-side .m-number:hover {
+    border: 3px solid black;
+    border-radius: 4px;
+    color: black;
+
+
+}
